@@ -19,4 +19,5 @@ def append():
     print()
     file1.close()
 
+append()
 pusher()
