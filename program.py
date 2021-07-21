@@ -12,12 +12,7 @@ def append():
     file1 = open("myfile.txt", "a")
     file1.write(f"Modified on : {today} \n")
     file1.close()
-    
-    file1 = open("myfile.txt", "r")
-    print("Output of Readlines after appending")
-    print(file1.read())
-    print()
-    file1.close()
+    print(f"Done {today}")
 
 append()
 pusher()
